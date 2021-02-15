@@ -1,0 +1,24 @@
+.header-container {
+    text-decoration: none;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; 
+}
+.header-container nav {
+    text-decoration: none;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+nav {
+    text-decoration: none;
+    box-decoration-break: none;
+    color: black;
+    font-size: 18px;
+    padding: 50px 0 0 30px;
+    outline: none;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import Home from './Components/Home/Home'
-import About from './Components/About'
-import Blog from './Components/Blog'
-import Books from './Components/Books'
-import Contact from './Components/Contact'
-import Gallery from './Components/Gallery'
+import About from './Components/About/About'
+import Blog from './Components/Blog/Blog'
+import Books from './Components/Books/Books'
+import Contact from './Components/Contact/Contact'
+import Gallery from './Components/Gallery/Gallery'
 
 
 export default (
