@@ -12,7 +12,7 @@ const Contact = props => {
 
 
     useEffect(() => {
-        document.title = 'Contact - Blush Restoration and Design'
+        document.title = 'Contact - Michelle'
     }, [])
 
     const sendMessage = (e) => {
@@ -28,7 +28,6 @@ const Contact = props => {
     }
     return(
         <main className='contact-me'>
-            <h2>Contact me!</h2>
             <section className='contact-info'>
                 <p>Contact</p>
             </section>
@@ -65,6 +64,7 @@ const Contact = props => {
                         <button onClick={() => setMessageSent(false)}>New Message</button>
                     </section>
                 )}
+               
         </main>
     )
 }
