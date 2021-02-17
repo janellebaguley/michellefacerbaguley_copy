@@ -7,6 +7,7 @@ function Header (){
             <header className = 'header-container'>
                 <h1>Michelle Facer Baguley</h1>
             <nav className = 'nav-links'>
+                
                 <Link to = '/'>Home</Link>
                 <Link to = '/books'>Books</Link>
                 <Link to = '/blog'>Blog</Link>

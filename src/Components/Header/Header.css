@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
+    list-style: none;
 }
 nav {
     text-decoration: none;
@@ -22,3 +23,9 @@ nav {
     padding: 50px 0 0 30px;
     outline: none;
 }
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
