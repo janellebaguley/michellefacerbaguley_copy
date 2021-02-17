@@ -183,3 +183,87 @@ If my Savior had given His life to save mine\, surely I could offer a purchase p
 I am grateful for first-responders and the sacrifices they make to save us from danger. To each of you\, I offer my gratitude.
 
 To my Savior\, I offer my heart and an open purchase point to my soul. I cannot comprehend Your sacrifice any more than I can do the job of our first-responders\, but I can prepare a place for You to dwell\, and I can proclaim the miracle of the purchase point that You so freely gave.", img);
+
+insert into posts(title, content, img) values('February 8\, 2020', "Righteous Indignation
+
+There have been at least two times in my life when I have penned letters of righteous indignation.
+
+Assured of my right to do so, I crafted brilliant manifesto’s calling malicious offenders to repentance.
+
+Punctuated by hot tears that spilled ferociously onto the page\, I fought the battle of deceit and betrayal. With every stroke of the keypad\, I cited the offense.
+
+I railed in defense of maligned characters of the innocent\, citing the brutal disregard for truth in favor of gain. Words\, prosecuting the offenders with tactical analysis\, I proved my point.
+
+Never had I experienced a greater need for justice — mercy\, ungiven.
+
+Outlining the facts of my case\, a flood of anger washed over me. If my judgment was clear then why was I dwelling in grief?
+
+I sought the counsel of friends\, requiring them to sit through my reading of a diatribe meant for indicting.
+
+The facts were clear\, the offense real. My friends could not deny the truth of my outrage\, annoyance\, a common bond.
+
+\“We agree with everything\,\” they said. \“But are you sure you want to send that?\”
+
+I stuffed the envelopes\, addressing the rascals with a flourish of penmanship\, a stamp\, unavailable\, I set it aside.  
+
+Bothered by the darkness that dwelt in my heart\, I prayed for guidance.
+
+An immediate whisper brought light to my soul. \“Be Still.\” The response from heaven\, never more exact.  
+
+ I waited to post my letters\, never sending them after all.  In each case\, justice served. For me and my resentment\, forgiveness granted. ",  null);
+
+ insert into posts(title, content, img) values('March 8\, 2020', "Timid Kate
+
+My father’s prized stallion\, Robin Colty sired the two-year-old quarter horse filly named Timid Kate\, her sorrel bearing a match for his crimson red.
+I remember the day we met as if it was yesterday. That’s saying something since I’m now in my sexy sixties.
+Shortly before my twelfth birthday\, while working in our yard\, my father asked me to follow him.
+I thought we were going to change the headgates in the irrigation ditch. Daddy was silent but quickened his pace heading away from the ditch. Determination and excitement claimed his stride\, and I had to run to keep up. We passed the ditch and headed South.
+
+I looked at him with enough curiosity to summon an explanation.
+\“Let’s take a walk.\” He said as we rounded the block. By now\, my feet were keeping time with the beat of my heart. A walk with dad was always an adventure.
+Unprepared for the scene that played ahead\, beauty stole my breath and captured my view.
+Standing in a field of green framed by whitewashed rail\, I could see two elegant mares and two playful fillies. They danced about\, sprinting and sparing\, enjoying the fixed attention of our captured souls.
+
+Dad stopped at the fence as we watched the spirited frolic. I could see mischief teasing at the corner of his brow as we examined God’s creations at play. It was at least ten minutes before he spoke again.
+\“Choose\,\” he said.
+\“Choose what?\” my response.
+\“Choose your birthday present.\” Daddy grinned beneath deep-set eyes that danced with merriment.
+
+I couldn’t believe my ears. \“A filly?\” I choked out between happy tears.
+\“A Filly\,\” He said\, with all the joy a giver can possess.
+A grateful hug was my offer\, along with a promise to care for her needs.
+
+Kate stayed at J Bryant Miller’s Ranch for another month or so\, and then we took another walk.
+This time\, I held a halter in my hands and a grin on my face that refused to fade away.
+
+It took some time for Kate to like me. I worked with her until she trusted my friendship.
+Kate was anything but timid, full of spirit\, and drive. She taught me that horses possess ambition and desire for a competitive edge. She was fast and preferred to live life in that gear.
+At first\, I was merely a passenger holding on for dear life. Daily rides\, oats\, and carrots helped seal the bond that permitted me to become one with her nature. Before long\, we were off on adventures that took us to the South Hills and through High Country scrub oak.
+She ignored my rendition of \“America the Beautiful\,\” as I sang at the top of my lungs\, referring to the miles of mountains and wheat that were my back yard. Or at least the backyard of my neighbors who forgave the trespass of respectful youth.
+I ignored her occasional sprints through scrub oak\, which propelled us up and over the foliage rather than through the strafing brush.
+
+We competed in cloverleaf barrels\, pole bending\, keyhole\, egg marathon\, musical tires\, and western equestrian. Earning trophies and ribbons in team and individual events as members of the Riverton Rough Riders\, Junior division.
+Of all the exciting possibilities\, Musical Tires being Kate’s favorite competition.
+Old tires\, thrown about an arena in a circular shape\, became the object of our challenge.
+Much like musical chairs\, when the music stopped\, a tire had to be claimed. With each new round\, a tire or two removed. The last person to stand in a tire won the game.
+Racing clockwise riders were dependant upon speed and control. The rules kept the horde in continual motion\, reverse a disqualifying factor.
+Did I forget to say\, \“Claiming a tire\, required the rider to dismount while the horse was in motion.\”
+
+We practiced over and over\, and on the day of the competition\, we were ready.
+I could feel the quiver through Kate’s muscles as she anticipated the sport. When the music began\, we were off like a dirty shirt\, racing to hold rank in a crowded field of hormonal teenagers.
+Rounds of elimination included bumped bottoms and bruised egos. I was in for the win\, and Kate invested in our purpose. Two competitors remained\, and one of them was my beautiful horse and me. I could feel victory within our grasp.
+As we rounded the last corner\, we were going so fast that we both passed the tire when the music stopped. Backtracking was an automatic loss\, so we gained momentum racing full throttle to the round of completion.
+
+Kate in the lead\, I held on\, knowing she might easily pass the tire\, and before she could round again\, I hollered \“Whoa Girl!\”
+She stopped on a dime. I did not! Over her head and into a pile of stuff you don’t talk about in church\, I fell. Missing the tire completely\, I captured the taunts and stares of the competition\, who seemed to be pointing\, \“Loser\” fingers in my direction. Sitting on the bleachers\, I noticed my crush\, looking at me like I was a creature from the black lagoon.
+It was only then that I realized my teeth were full of horse doings\, my beautiful blonde locks stuck to my head with a squishy green hue that dripped over one eye.
+I stood there\, humiliated. My preteen-self wondering if I would ever compete again.
+
+In the middle of my angst\, I felt a nudge at my back.
+At first\, I thought it was a judge prodding me to leave the arena. When I realized it was Kate\, tears washed over my face\, tracing the dung and clearing a path for gratitude.
+
+If embarrassment was our reward\, she was in for the ride. I pinned our second place ribbon on her bridle\, knowing she would forever hold a first-place standing in my heart.
+
+The lessons I learned on the back of a horse are immeasurable. God’s creations\, in all of their forms\, are intended to bring love and joy to life. Overcoming life’s trials with a horse by your side is a great blessing indeed.
+
+I loved that horse with all of my heart\, but more than that\, I love the father who sacrificed time and resources for a young girl’s dreams.", null);
