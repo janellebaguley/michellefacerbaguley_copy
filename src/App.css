@@ -7,7 +7,10 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  
 }
+
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */ 
   color: darkgray; 
   text-decoration: none;
