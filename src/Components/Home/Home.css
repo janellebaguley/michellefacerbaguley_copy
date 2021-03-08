@@ -1,5 +1,17 @@
-nav {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
+
+  .home-container {
+    display: flex;
+    max-width: 75vw;
+    padding: 2rem;
+  }
+  .home-p {
+    padding: 2rem;
+    align-items: left;
+    max-width: 40vw;
+  }
+  .home-p2 {
+    padding: 2rem 6rem;
+    align-items: center;
+    display: flex;
+    max-width: 95vw;
   }

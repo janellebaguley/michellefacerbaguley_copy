@@ -1,5 +1,10 @@
-.nav-links {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 70vw;
+  padding: 3rem 0 0 6rem;
+}
+.about-p {
+  padding: 2rem;
+}

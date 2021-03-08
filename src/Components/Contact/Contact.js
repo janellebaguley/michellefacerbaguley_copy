@@ -29,7 +29,7 @@ const Contact = props => {
     return(
         <main className='contact-me'>
             <section className='contact-info'>
-                <p>Contact</p>
+                {/* <p>Contact</p> */}
             </section>
             {!messageSent
                 ? (

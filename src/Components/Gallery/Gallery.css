@@ -1,5 +1,7 @@
-.nav-links {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
+.photo-sizing {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  margin: 1rem;
+  padding: 1rem 3rem;
+}

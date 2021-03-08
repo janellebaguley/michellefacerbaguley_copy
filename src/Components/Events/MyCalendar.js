@@ -13,12 +13,8 @@ export default class MyCalendar extends Component {
     weekendsVisible: true,
     currentEvents: []
   };
-  this.handleEventClick = this.handleEventClick.bind(this)
 }
-
-
-
-  render() {
+ render() {
     return (
       <div className="demo-app">
         {this.renderSidebar()}
@@ -58,56 +54,44 @@ export default class MyCalendar extends Component {
     );
   }
 
-
-  handleGetSessionUser = () => {
-    axios.get('/auth/session-user')
-    .then(res => {
-      this.setState({user: res.data})
-    })
-  }
-
-  handleDateSelect = (selectInfo) => {
+  // handleDateSelect = (selectInfo) => {
     
-    let title = prompt('Please enter a new title & location for your event');
-    let calendarApi = selectInfo.view.calendar;
-    // axios.post('/api/event', {id: createEventId()})
-    calendarApi.unselect(); 
+  //   let title = prompt('Please enter a new title & location for your event');
+  //   let calendarApi = selectInfo.view.calendar;
+   
+  //   calendarApi.unselect(); 
 
-    if (title) {
-      calendarApi.addEvent({
-        id: createEventId(),
-        title,
-        start: selectInfo.startStr,
-        end: selectInfo.endStr,
-        allDay: selectInfo.allDay
-      });
-    }
-  };
+  //   if (title) {
+  //     calendarApi.addEvent({
+  //       id: createEventId(),
+  //       title,
+  //       start: selectInfo.startStr,
+  //       end: selectInfo.endStr,
+  //       allDay: selectInfo.allDay
+  //     });
+  //   }
+  // };
 
-  handleEventClick = (clickInfo) => {
-    console.log(clickInfo.event._def.title)
-    axios.delete(`/api/event/${clickInfo.event._def.title}`) .catch(err => console.log(err))
-    if (
-      window.confirm(
-        `Are you sure you want to delete the event '${clickInfo.event.title}'`
-      )
-    ) {
-      clickInfo.event.remove();
-    }
+  // handleEventClick = (clickInfo) => {
+  //   console.log(clickInfo.event._def.title)
+  //   axios.delete(`/api/event/${clickInfo.event._def.title}`) .catch(err => console.log(err))
+  //   if (
+  //     window.confirm(
+  //       `Are you sure you want to delete the event '${clickInfo.event.title}'`
+  //     )
+  //   ) {
+  //     clickInfo.event.remove();
+  //   }
   
-  };
+  // };
 
   handleEvents = (events) => {
-    console.log(JSON.stringify(events))
-    
-    axios.post('/api/event', events)
-    .then (events =>
     this.setState({
-      currentEvents: events.data
-    }))
-  .catch(err => console.log(err))
+      currentEvents: events
+    });
+  };
 }
-}
+
 function renderEventContent (eventInfo){
   
   return (

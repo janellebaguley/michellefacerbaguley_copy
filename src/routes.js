@@ -6,7 +6,7 @@ import Blog from './Components/Blog/Blog'
 import Books from './Components/Books/Books'
 import Contact from './Components/Contact/Contact'
 import Gallery from './Components/Gallery/Gallery'
-import Calendar from './Components/Events/Calendar'
+import MyCalendar from './Components/Events/MyCalendar'
 
 export default (
     <Switch>
@@ -16,6 +16,6 @@ export default (
         <Route path= '/books' component={Books}/>
         <Route path= '/contact' component={Contact}/>
         <Route path= '/gallery' component={Gallery}/>
-        <Route path = '/calendar' component ={Calendar}/>
+        <Route path = '/events' component ={MyCalendar}/>
     </Switch>
 )
