@@ -2,24 +2,22 @@ const bcrypt = require('bcryptjs');
 const { captureRejectionSymbol } = require('nodemailer/lib/mailer');
 
 module.exports = {
-    register: (req, res) => {
-        const {username, password, isAdmin} = req.body;
-        const db = req.app.get('db');
-        const result = await db.get_user([username])
+    register: async(req, res) => {
+        const { username, email, password, profilePicture } = req.body
+        const db = req.app.get('db')
 
-        const existingUser = result[0]
-        if (existingUser) {
-            return res.status(409).send('Username is taken')
+        const [foundUser] = await db.users.check_user({ email })
+        if(foundUser){
+            return res.status(400).send('Email already in use')
         }
-        const salt = bcrypt.genSaltSync(10)
+
+        let salt = bcrypt.genSaltSync(10)
         const hash = bcrypt.hashSync(password, salt)
 
-        const registeredUser = await db. register_user([isAdmin, username, hash])
-        const user = registeredUser[0]
+        const [newUser] = await db.users.register_user({ username, email, hash, profilePicture })
 
-        req.session.user = {isAdmin: user.is_admin, username: user.username, id: user.id}
-
-        return res.status(201).send(req.session.user)
+        req.session.user = newUser
+        res.status(201).send(req.session.user)
     },
     login: async(req, res) => {
         const {username, password} = req.body

@@ -1,1 +1,1 @@
-select * from posts order by id asc;
+select * from posts order by ID ASC;
