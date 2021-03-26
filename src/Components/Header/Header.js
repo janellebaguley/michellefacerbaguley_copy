@@ -1,23 +1,51 @@
+import React, {Component} from 'react'
 import {Link, withRouter} from 'react-router-dom'
+import HamburgerMenu from 'react-hamburger-menu'
 import './Header.css'
 
-function Header (){
+class Header extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            open: false
+        }
+    }
+    toggleDropdown = () => {
+        this.setState({open: !this.state.open})
+      }
+    render() {
     return(
         <div>
-            <header className = 'header-container'>
+            <header>
                 <h1>Michelle Facer Baguley</h1>
-            <nav className = 'nav-links'>
+                <section className='container'>   
+            
+                <HamburgerMenu 
+                isOpen = {this.state.open} 
+                menuClicked = {this.toggleDropdown}
+                width={25}
+                height={22}
+                color='black'
+                position='fixed'/>
+            
+            {this.state.open
+          ? (
+            <nav className = 'nav'>
                 
-                <Link to = '/'>Home</Link>
-                <Link to = '/books'>Books</Link>
-                <Link to = '/blog'>Blog</Link>
-                <Link to = '/about'>About</Link>
-                <Link to = '/gallery'>Gallery</Link>
-                <Link to = '/events'>Events</Link>
-                <Link to = '/contact'>Contact</Link>
+                <Link to = '/' className='nav-links'>Home</Link>
+                <Link to = '/books' className='nav-links'>Books</Link>
+                <Link to = '/blog' className='nav-links'>Blog</Link>
+                <Link to = '/about' className='nav-links'>About</Link>
+                <Link to = '/gallery' className='nav-links'>Gallery</Link>
+                <Link to = '/events' className='nav-links'>Events</Link>
+                <Link to = '/contact' className='nav-links'>Contact</Link>
             </nav>
+            )
+            : null}
+            </section>
             </header>
         </div>
     )
+ }
 }
 export default withRouter(Header)
