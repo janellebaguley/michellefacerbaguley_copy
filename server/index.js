@@ -30,7 +30,7 @@ massive({
 app.post('/api/mail', ctrl.email)
 
 //blog
-app.get('/api/posts', blogCtrl.getAllPosts)
+app.get('/api/blog', blogCtrl.getAllPosts)
 
 //Auth
 app.post('/api/register', authCtrl.register)

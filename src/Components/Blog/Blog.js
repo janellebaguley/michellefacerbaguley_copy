@@ -11,15 +11,12 @@ class Blog extends Component{
         this.getPosts = this.getPosts.bind(this)
     }
 
-    componentDidMount() {
-        axios.get('/api/posts')
-        .then(res => {
-            this.setState({posts: res.data})
-        })
-    }
+   componentDidMount(){
+       this.getPosts()
+   }
 
     getPosts = () => {
-        axios.get('/api/posts')
+        axios.get('/api/blog')
         .then(res => {
             this.setState({posts: res.data})
         })
