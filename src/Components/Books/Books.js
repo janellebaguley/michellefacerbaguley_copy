@@ -16,21 +16,21 @@ function Books() {
             You can order your copy at all major book stores today.
             </p>
             <section>
-                {/* <Link to= 'https://www.archwaypublishing.com/Bookstore/BookDetail.aspx?Book=795968' >
+               <a href='https://www.archwaypublishing.com/Bookstore/BookDetail.aspx?Book=795968' >
                     <img src={archway} alt = 'archway'/>
-                </Link>
-                <Link to = 'https://m.barnesandnoble.com/w/proceed-to-remembrance-michelle-facer-baguley/1133148522?ean=9781480878792'>
+                </a>
+                <a href = 'https://m.barnesandnoble.com/w/proceed-to-remembrance-michelle-facer-baguley/1133148522?ean=9781480878792'>
                     <img src={barnes} alt='barnes and noble'/>
-                </Link>
-                <Link to ='https://www.powells.com/book/-9781480878792'>
+                </a>
+                <a href ='https://www.powells.com/book/-9781480878792'>
                     <img src={powells} alt="Powell's books"/>
-                </Link>
-                <Link to ='https://m.booksamillion.com/search?id=7671906111137&query=Proceed%20to%20Remembrance&filter='>
+                </a>
+                <a href ='https://m.booksamillion.com/search?id=7671906111137&query=Proceed%20to%20Remembrance&filter='>
                     <img src={books} alt='book-a-million'/>
-                </Link>
-                <Link to = 'https://www.amazon.com/Proceed-Remembrance-Michelle-Facer-Baguley/dp/1480878790/ref=mp_s_a_1_1?keywords=proceed+to+remembrance&qid=1567258293&s=books&sr=1-1'>
+                </a>
+                <a href = 'https://www.amazon.com/Proceed-Remembrance-Michelle-Facer-Baguley/dp/1480878790/ref=mp_s_a_1_1?keywords=proceed+to+remembrance&qid=1567258293&s=books&sr=1-1'>
                     <img src={amazon} alt = 'amazon'/>
-                </Link> */}
+                </a>
             </section>
             <section>
                 <h3>Book Reviews</h3>
