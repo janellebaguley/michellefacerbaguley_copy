@@ -23,10 +23,13 @@ class Header extends Component {
                 <HamburgerMenu 
                 isOpen = {this.state.open} 
                 menuClicked = {this.toggleDropdown}
-                width={25}
+                width={30}
                 height={22}
                 color='black'
-                position='fixed'/>
+                position='fixed'
+                z-index = {10}
+                justify-content = 'right'
+                />
             
             {this.state.open
           ? (

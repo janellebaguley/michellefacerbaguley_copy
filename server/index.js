@@ -1,11 +1,9 @@
 require('dotenv').config()
 const express = require('express'),
       ctrl = require('./controllers/controller'),
-      blogCtrl = require('./controllers/blogController'),
-      authCtrl = require('./controllers/authController'),
+      blogCtrl = require('./controllers/blogController')
       massive = require('massive'),
       session = require('express-session')
-    //   mid = require('./controllers/middleware')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env
 
 const app = express()
@@ -31,10 +29,5 @@ app.post('/api/mail', ctrl.email)
 
 //blog
 app.get('/api/blog', blogCtrl.getAllPosts)
-
-//Auth
-app.post('/api/register', authCtrl.register)
-app.post('/api/login', authCtrl.login)
-app.get('/api/logout', authCtrl.logout)
 
 app.listen(SERVER_PORT, () => console.log(`Running on port: ${SERVER_PORT}`))

@@ -9,7 +9,9 @@ import sunset6 from '../../assets/sunset6.jpg'
 function Gallery (){
     return(
         <div>
+            <div className='photo-gallery'>
             <h2>Photos by Michelle</h2>
+            </div>
             <section className='photo-sizing'>
             <img alt='sunset' src={sunset1}/>
             <img alt='sunset' src={sunset2}/>

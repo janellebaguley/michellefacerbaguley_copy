@@ -4,11 +4,11 @@ import './Blog.css'
 
 
 class Blog extends Component{
-    contructor(){
+    constructor(){
+      super()
         this.state = {
-            posts: []
+           posts: []
         }
-        this.getPosts = this.getPosts.bind(this)
     }
 
    componentDidMount(){
@@ -26,14 +26,16 @@ class Blog extends Component{
     render() {
     return(
         <div>
-            <main>
-                {this.posts?.map((posts, i) => (
+            <section className='container'>
+                {this.posts.map((posts, i) => (
                     <div key={i} >
+                        <section>
                         <h4>{posts.title}</h4>
                         <h5>{posts.content}</h5>
+                        </section>
                     </div>
                 ))}
-            </main>
+            </section>
         </div>
         )
     }
