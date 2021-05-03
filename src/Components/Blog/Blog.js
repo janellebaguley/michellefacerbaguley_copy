@@ -24,10 +24,11 @@ class Blog extends Component{
     }
 
     render() {
+        console.log(this.state.posts)
     return(
         <div>
             <section className='container'>
-                {this.posts.map((posts, i) => (
+                {this.posts?.map((posts, i) => (
                     <div key={i} >
                         <section>
                         <h4>{posts.title}</h4>

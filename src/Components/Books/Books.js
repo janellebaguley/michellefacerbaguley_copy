@@ -10,31 +10,34 @@ import powells from '../../assets/powellsbooks.jpg'
 function Books() {
     return(
         <div>
-            <img src={cover} alt='Proceed to Remembrance'/>
+            <div className='books-container'>
+            <img src={cover} alt='Proceed to Remembrance' className='cover-photo'/>
             <p>I am Thrilled to announce the completion of my dystopian novel
-            PROCEED TO REMEMBRANCE 
+            PROCEED TO REMEMBRANCE! 
             You can order your copy at all major book stores today.
             </p>
+            </div>
             <section>
                <a href='https://www.archwaypublishing.com/Bookstore/BookDetail.aspx?Book=795968' >
-                    <img src={archway} alt = 'archway'/>
+                    <img src={archway} alt = 'archway' className= 'buy-book'/>
                 </a>
                 <a href = 'https://m.barnesandnoble.com/w/proceed-to-remembrance-michelle-facer-baguley/1133148522?ean=9781480878792'>
-                    <img src={barnes} alt='barnes and noble'/>
+                    <img src={barnes} alt='barnes and noble' className= 'buy-book'/>
                 </a>
                 <a href ='https://www.powells.com/book/-9781480878792'>
-                    <img src={powells} alt="Powell's books"/>
+                    <img src={powells} alt="Powell's books" className= 'buy-book'/>
                 </a>
                 <a href ='https://m.booksamillion.com/search?id=7671906111137&query=Proceed%20to%20Remembrance&filter='>
-                    <img src={books} alt='book-a-million'/>
+                    <img src={books} alt='book-a-million' className= 'buy-book'/>
                 </a>
-                <a href = 'https://www.amazon.com/Proceed-Remembrance-Michelle-Facer-Baguley/dp/1480878790/ref=mp_s_a_1_1?keywords=proceed+to+remembrance&qid=1567258293&s=books&sr=1-1'>
-                    <img src={amazon} alt = 'amazon'/>
+                <a href = 'https://www.amazon.com/Proceed-Remembrance-Michelle-Facer-Baguley/zdp/1480878790/ref=mp_s_a_1_1?keywords=proceed+to+remembrance&qid=1567258293&s=books&sr=1-1'>
+                    <img src={amazon} alt = 'amazon' className= 'buy-book'/>
                 </a>
             </section>
-            <section>
+            <section className = 'book-review'>
                 <h3>Book Reviews</h3>
-                <p>Timothy Dean Lefler:
+                <p>
+                <ul>Timothy Dean Lefler:</ul>
                 <ul>“A must read.</ul>
                 <ul>I found this book to be a deep and moving portrait of a new reality; a reality that may arrive all too soon. Vision and warning combine to form an apocalyptic adventure.”</ul>
                 <ul>Jeanna Miller:</ul>

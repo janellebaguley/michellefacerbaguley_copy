@@ -2,7 +2,8 @@
   .home-container {
     display: flex;
     max-width: 75vw;
-    padding: 2rem;
+    padding: 3rem;
+    align-items: center;
   }
   .home-p {
     padding: 2rem;

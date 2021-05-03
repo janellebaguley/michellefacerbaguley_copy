@@ -1,0 +1,31 @@
+.books-container {
+    display: flex;
+    max-width: 90vw;
+    padding: 3rem;
+    /* align-items: center; */
+}
+
+.cover-photo {
+    margin: 1rem 2rem;
+}
+
+.books-container p {
+    font-size: 24px;
+    margin: 1rem;
+}
+
+.buy-book {
+    width: 10rem;
+    height: 10rem;
+    margin: 1.5rem;
+}
+
+.book-review {
+    font-size: 16px;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.book-review ul {
+    margin: .5rem;
+}
