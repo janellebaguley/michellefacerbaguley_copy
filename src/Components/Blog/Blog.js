@@ -7,7 +7,8 @@ class Blog extends Component{
     constructor(){
       super()
         this.state = {
-           posts: []
+           posts: [],
+           img: ''
         }
     }
 
@@ -16,7 +17,7 @@ class Blog extends Component{
    }
 
     getPosts = () => {
-        axios.get('/api/blog')
+        axios.get(`/api/blog/:${this.post_id}`)
         .then(res => {
             this.setState({posts: res.data})
         })
@@ -25,14 +26,17 @@ class Blog extends Component{
 
     render() {
         console.log(this.state.posts)
+        let imgSrc= this.state.img ? this.state.img : 'noImage';
     return(
         <div>
-            <section className='container'>
-                {this.posts?.map((posts, i) => (
-                    <div key={i} >
+            <section className='blog-container'>
+               
+                {this.state.posts?.map((posts) => (
+                    <div key={this.state.posts.post_id} >
                         <section>
-                        <h4>{posts.title}</h4>
-                        <h5>{posts.content}</h5>
+                        {/* <img src={imgSrc}/> */}
+                        <p>{this.state.posts.title}</p>
+                        <p>{this.state.posts.content}</p>
                         </section>
                     </div>
                 ))}

@@ -28,6 +28,6 @@ massive({
 app.post('/api/mail', ctrl.email)
 
 //blog
-app.get('/api/blog', blogCtrl.getAllPosts)
+app.get('/api/blog/:id', blogCtrl.getAllPosts)
 
 app.listen(SERVER_PORT, () => console.log(`Running on port: ${SERVER_PORT}`))

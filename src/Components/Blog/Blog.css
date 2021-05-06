@@ -1,4 +1,7 @@
-.container{
+.blog-container{
     color: black;
     font-size: 18px;
+    margin: 1rem;
+    width: 90vw;
+    height: 300vh;
 }
