@@ -35,9 +35,9 @@ class Header extends Component {
           ? (
             <nav className = 'nav'>
                 
-                <Link to = '/' className='nav-links'>Home</Link>
+                <Link exact to = '/' className='nav-links'>Home</Link>
                 <Link to = '/books' className='nav-links'>Books</Link>
-                <Link to = '/blog' className='nav-links'>Blog</Link>
+                <Link to = '/post' replace className='nav-links'>Blog</Link>
                 <Link to = '/about' className='nav-links'>About</Link>
                 <Link to = '/gallery' className='nav-links'>Gallery</Link>
                 <Link to = '/events' className='nav-links'>Events</Link>

@@ -26,7 +26,7 @@ class Blog extends Component{
 
     render() {
         console.log(this.state.posts)
-        let imgSrc= this.state.img ? this.state.img : 'noImage';
+        // let imgSrc= this.state.img ? this.state.img : 'noImage';
     return(
         <div>
             <section className='blog-container'>
