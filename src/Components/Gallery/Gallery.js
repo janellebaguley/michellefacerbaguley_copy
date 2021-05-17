@@ -34,56 +34,42 @@ import wire from '../../assets/wire.jpg'
 function Gallery (){
     return(
         <div>
-            <div className='photo-gallery'>
+            <article className = 'gallery-container-box'>
             <h2>Photos by Michelle</h2>
-            </div>
             <section className='photo-sizing'>
             <img alt='sunset' src={sunset1}/>
             <img alt='sunset' src={sunset2}/>
             <img alt='sunset' src={sunset3}/>
             <img alt='sunset' src={sunset4}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='sunset' src={sunset5}/>
             <img alt='sunset' src={sunset6}/>
             <img alt='sunset' src={sunset7}/>
             <img alt='sunset' src={yellowsunset}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='bridge' src={bridge}/>
             <img alt='clouds' src={clouds}/>
             <img alt='foot' src={foot}/>
             <img alt='fox' src={fox}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='hawk' src={hawk}/>   
             <img alt='lightning' src={lightning}/>
             <img alt='lightning' src={lightning2}/>
             <img alt='owl' src={owl}/> 
-            </section>
-            <section className='photo-sizing'>
             <img alt='owl' src={owl2}/>
             <img alt='owl' src={owl3}/>
             <img alt='owl' src={owl4}/>
             <img alt='owls' src={owls}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='redrocks' src={redrocks}/>
             <img alt='river' src={river}/>
             <img alt='river' src={river2}/>
             <img alt='river' src={river3}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='trunk' src={trunk}/>
             <img alt='trunk' src={trunk2}/>
             <img alt='trunk' src={trunk3}/>
             <img alt='trunk' src={trunk5}/>
-            </section>
-            <section className='photo-sizing'>
             <img alt='water' src={water}/>
             <img alt='water' src={water2}/>
             <img alt='wire' src={wire}/>
             </section>
+            </article>
         </div>
     )
 }
