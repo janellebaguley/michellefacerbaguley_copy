@@ -30,46 +30,7 @@ import water from '../../assets/water.jpg'
 import water2 from '../../assets/water2.jpg'
 import wire from '../../assets/wire.jpg'
 
-const images = () =>{
-    return(
-        <div>
-            <article className = 'gallery-container-box'>
-            <h2>Photos by Michelle</h2>
-            <section className='photo-sizing'>
-            <img alt='sunset' src={sunset1}/>
-            <img alt='sunset' src={sunset2}/>
-            <img alt='sunset' src={sunset3}/>
-            <img alt='sunset' src={sunset4}/>
-            <img alt='sunset' src={sunset5}/>
-            <img alt='sunset' src={sunset6}/>
-            <img alt='sunset' src={sunset7}/>
-            <img alt='sunset' src={yellowsunset}/>
-            <img alt='bridge' src={bridge}/>
-            <img alt='clouds' src={clouds}/>
-            <img alt='foot' src={foot}/>
-            <img alt='fox' src={fox}/>
-            <img alt='hawk' src={hawk}/>   
-            <img alt='lightning' src={lightning}/>
-            <img alt='lightning' src={lightning2}/>
-            <img alt='owl' src={owl}/> 
-            <img alt='owl' src={owl2}/>
-            <img alt='owl' src={owl3}/>
-            <img alt='owl' src={owl4}/>
-            <img alt='owls' src={owls}/>
-            <img alt='redrocks' src={redrocks}/>
-            <img alt='river' src={river}/>
-            <img alt='river' src={river2}/>
-            <img alt='river' src={river3}/>
-            <img alt='trunk' src={trunk}/>
-            <img alt='trunk' src={trunk2}/>
-            <img alt='trunk' src={trunk3}/>
-            <img alt='trunk' src={trunk5}/>
-            <img alt='water' src={water}/>
-            <img alt='water' src={water2}/>
-            <img alt='wire' src={wire}/>
-            </section>
-            </article>
-        </div>
-    )
-}
-export default images;
+const images = [            
+    '../../assets/bridge.jpg'
+            
+]
