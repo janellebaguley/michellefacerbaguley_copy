@@ -1,6 +1,3 @@
-import React from 'react';
-import Carousel from 'react-gallery-carousel'
-import './Gallery.css'
 import bridge from '../../assets/bridge.jpg'
 import clouds from '../../assets/clouds.jpg'
 import foot from '../../assets/foot.jpg'
@@ -33,7 +30,7 @@ import water from '../../assets/water.jpg'
 import water2 from '../../assets/water2.jpg'
 import wire from '../../assets/wire.jpg'
 
-function Gallery (){
+const images = () =>{
     return(
         <div>
             <article className = 'gallery-container-box'>
@@ -75,4 +72,4 @@ function Gallery (){
         </div>
     )
 }
-export default Gallery;
+export default images;

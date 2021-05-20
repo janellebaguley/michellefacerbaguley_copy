@@ -5,3 +5,11 @@
     width: 90vw;
     height: 300vh;
 }
+.header-h2 {
+    font-size: 24px;
+    margin: 80px 0px 10px 60px;
+}
+.paragraph {
+    font-size: 18px;
+    margin: 0px 40px 10px 60px;
+}
