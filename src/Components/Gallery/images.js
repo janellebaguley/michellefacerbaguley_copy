@@ -31,6 +31,128 @@ import water2 from '../../assets/water2.jpg'
 import wire from '../../assets/wire.jpg'
 
 const images = [            
-    '../../assets/bridge.jpg'
-            
+    {
+        id: 1,
+        src: {bridge},
+    },
+    {
+        id: 2,
+        src: {clouds},
+    },
+    {
+        id: 3,
+        src: {foot},
+    },
+    {
+        id: 4,
+        src: {fox},
+    },
+    {
+        id: 5,
+        src: {hawk},
+    },
+    {
+        id: 6,
+        src: {lightning},
+    },
+    {
+        id: 7,
+        src: {lightning2},
+    },
+    {
+        id: 8,
+        src: {owl},
+    },
+    {
+        id: 9,
+        src: {owl2},
+    },
+    {
+        id: 10,
+        src: {owl3},
+    },
+    {
+        id: 11,
+        src: {owl4},
+    },
+    {
+        id: 12,
+        src: {owls},
+    },
+    {
+        id: 13,
+        src: {redrocks},
+    },
+    {
+        id: 14,
+        src: {river},
+    },
+    {
+        id: 15,
+        src: {river2},
+    },
+    {
+        id: 16,
+        src: {river3},
+    },
+    {
+        id: 17,
+        src: {sunset1},
+    },
+    {
+        id: 18,
+        src: {sunset2},
+    },
+    {
+        id: 19,
+        src: {sunset3},
+    },
+    {
+        id: 20,
+        src: {sunset4},
+    },
+    {
+        id: 21,
+        src: {sunset5},
+    },
+    {
+        id: 22,
+        src: {sunset6},
+    },
+    {
+        id: 23,
+        src: {sunset7},
+    },
+    {
+        id: 24,
+        src: {yellowsunset},
+    },
+    {
+        id: 25,
+        src: {trunk},
+    },
+    {
+        id: 26,
+        src: {trunk2},
+    },
+    {
+        id: 27,
+        src: {trunk3},
+    },
+    {
+        id: 28,
+        src: {trunk5},
+    },
+    {
+        id: 29,
+        src: {water},
+    },
+    {
+        id: 30,
+        src: {water2},
+    },
+    {
+        id: 31,
+        src: {wire}
+    }           
 ]

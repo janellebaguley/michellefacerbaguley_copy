@@ -1,4 +1,16 @@
-
+.carousel-container {
+  height: 0 auto;
+  width: 0 auto;
+  padding: 20px;
+}
+.carousel-heading {
+  font-size: 24px;
+  color: black;
+  margin: 10px 0 20px 60px;
+}
+carousel-container img {
+  height: 50vh;
+}
 
 /* .gallery-container-box {
   width: 90vw;
