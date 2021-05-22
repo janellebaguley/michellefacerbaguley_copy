@@ -44,7 +44,7 @@ const Gallery = props =>{
 
     const settings = {
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 4,
         dots: false,
         arrows: false,
         slidesToScroll: 1,
@@ -56,7 +56,7 @@ const Gallery = props =>{
         <div className='carousel-container'>
             <h2 className='carousel-heading'>Photos by Michelle</h2>
             <section className='carousel-section'>
-            <Slider {...settings} className='slider'>
+            <Slider {...settings} >
                 <img src={bridge} alt='bridge'/>
                 <img src={clouds} alt='clouds'/>
                 <img src={foot} alt='foot'/>

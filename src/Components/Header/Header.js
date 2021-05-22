@@ -27,7 +27,7 @@ class Header extends Component {
                 height={22}
                 color='black'
                 position='fixed'
-                z-index = {12}
+                z-index = {10}
                 justify-content = 'right'
                 />
             
