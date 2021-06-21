@@ -1,9 +1,10 @@
-require('dotenv').config()
+require('dotenv').config({path: __dirname + '/../.env'})
 const express = require('express'),
       ctrl = require('./controllers/controller'),
       blogCtrl = require('./controllers/blogController')
       massive = require('massive'),
-      session = require('express-session')
+      session = require('express-session');
+const path = require('path')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env
 
 const app = express()
@@ -22,6 +23,11 @@ massive({
 .then((db) => {
     app.set('db', db)
     console.log('db connected')
+})
+app.use(express.static(__dirname + '/../build'))
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname,  '../build/index.html'))
 })
 
 //nodemailer endpoint
